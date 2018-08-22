@@ -1,22 +1,22 @@
-ShadowsocksR for Windows
-=======================
-
-[![Build Status]][Appveyor]
+ShadowsocksR for Windows with MaterialDesign (by MaterialSkin)
+======================
 
 #### Download
 
 
 Download the [latest release](https://github.com/shadowsocksr-rm/shadowsocksr-csharp/releases) for ShadowsocksR for Windows.
 
-For >= Windows 8 or with .Net 4.0+, using ShadowsocksR-dotnet4.0.exe.
 
-For <= Windows 7 or with .Net 2.0, Shut up and update your .NET Framework.
+#### Usage 用法
+对于装了.NET4.0+版本的win7+系统，直接用ShadowsocksR.exe
+For >= Windows 7+ or with .Net 4.0+, using ShadowsocksR.exe directly.
 
-#### Usage
+对于XP用户，
+For <= Windows XP or with .Net 2.0, Shut up and update your .NET Framework.
 
-### Develop
-
-Visual Studio Express 2012 is recommended.
+### Develop 开发
+任意Visual Studio 2012以上版本均可
+Visual Studio * 2012 is avliable.
 
 #### License
 
