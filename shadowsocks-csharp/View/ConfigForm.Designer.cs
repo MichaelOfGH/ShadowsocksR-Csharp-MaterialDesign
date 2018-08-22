@@ -49,27 +49,27 @@ namespace Shadowsocks.View
             this.TextLink = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.RemarksTextBox = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.ObfsUDPLabel = new System.Windows.Forms.Label();
-            this.CheckObfsUDP = new MaterialCheckBox();
+            this.CheckObfsUDP = new MaterialSkin.Controls.MaterialCheckBox();
             this.TCPProtocolLabel = new System.Windows.Forms.Label();
             this.UDPoverTCPLabel = new System.Windows.Forms.Label();
-            this.CheckUDPoverUDP = new MaterialCheckBox();
+            this.CheckUDPoverUDP = new MaterialSkin.Controls.MaterialCheckBox();
             this.LabelNote = new System.Windows.Forms.Label();
-            this.PasswordLabel = new MaterialCheckBox();
+            this.PasswordLabel = new MaterialSkin.Controls.MaterialCheckBox();
             this.TCPoverUDPLabel = new System.Windows.Forms.Label();
-            this.CheckTCPoverUDP = new MaterialCheckBox();
+            this.CheckTCPoverUDP = new MaterialSkin.Controls.MaterialCheckBox();
             this.TCPProtocolComboBox = new System.Windows.Forms.ComboBox();
             this.labelObfsParam = new System.Windows.Forms.Label();
             this.TextObfsParam = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.labelGroup = new System.Windows.Forms.Label();
             this.TextGroup = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.checkAdvSetting = new MaterialCheckBox();
+            this.checkAdvSetting = new MaterialSkin.Controls.MaterialCheckBox();
             this.labelUDPPort = new System.Windows.Forms.Label();
             this.NumUDPPort = new System.Windows.Forms.NumericUpDown();
-            this.checkSSRLink = new MaterialCheckBox();
+            this.checkSSRLink = new MaterialSkin.Controls.MaterialCheckBox();
             this.labelRemarks = new System.Windows.Forms.Label();
             this.labelProtocolParam = new System.Windows.Forms.Label();
             this.TextProtocolParam = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.IPLabel = new MaterialCheckBox();
+            this.IPLabel = new MaterialSkin.Controls.MaterialCheckBox();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.LinkUpdate = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
@@ -140,7 +140,7 @@ namespace Shadowsocks.View
             // 
             this.PictureQRcode.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PictureQRcode.BackColor = System.Drawing.SystemColors.Control;
-            this.PictureQRcode.Location = new System.Drawing.Point(4, 147);
+            this.PictureQRcode.Location = new System.Drawing.Point(4, 161);
             this.PictureQRcode.Margin = new System.Windows.Forms.Padding(4);
             this.PictureQRcode.Name = "PictureQRcode";
             this.PictureQRcode.Size = new System.Drawing.Size(260, 200);
@@ -178,7 +178,7 @@ namespace Shadowsocks.View
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(904, 546);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(912, 573);
             this.tableLayoutPanel2.TabIndex = 7;
             // 
             // ServerGroupBox
@@ -191,7 +191,7 @@ namespace Shadowsocks.View
             this.ServerGroupBox.Location = new System.Drawing.Point(268, 0);
             this.ServerGroupBox.Margin = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.ServerGroupBox.Name = "ServerGroupBox";
-            this.ServerGroupBox.Size = new System.Drawing.Size(353, 501);
+            this.ServerGroupBox.Size = new System.Drawing.Size(361, 528);
             this.ServerGroupBox.TabIndex = 20;
             this.ServerGroupBox.TabStop = false;
             this.ServerGroupBox.Text = "Server";
@@ -258,7 +258,7 @@ namespace Shadowsocks.View
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(342, 451);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(350, 478);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // ObfsCombo
@@ -272,7 +272,7 @@ namespace Shadowsocks.View
             "random_head",
             "tls1.2_ticket_auth",
             "tls1.2_ticket_fastauth"});
-            this.ObfsCombo.Location = new System.Drawing.Point(103, 181);
+            this.ObfsCombo.Location = new System.Drawing.Point(111, 183);
             this.ObfsCombo.Margin = new System.Windows.Forms.Padding(3, 3, 3, 7);
             this.ObfsCombo.Name = "ObfsCombo";
             this.ObfsCombo.Size = new System.Drawing.Size(233, 22);
@@ -284,7 +284,7 @@ namespace Shadowsocks.View
             this.labelObfs.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.labelObfs.AutoSize = true;
             this.labelObfs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.labelObfs.Location = new System.Drawing.Point(65, 186);
+            this.labelObfs.Location = new System.Drawing.Point(73, 188);
             this.labelObfs.Name = "labelObfs";
             this.labelObfs.Size = new System.Drawing.Size(32, 14);
             this.labelObfs.TabIndex = 18;
@@ -294,7 +294,7 @@ namespace Shadowsocks.View
             // 
             this.ServerPortLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.ServerPortLabel.AutoSize = true;
-            this.ServerPortLabel.Location = new System.Drawing.Point(31, 39);
+            this.ServerPortLabel.Location = new System.Drawing.Point(39, 40);
             this.ServerPortLabel.Name = "ServerPortLabel";
             this.ServerPortLabel.Size = new System.Drawing.Size(66, 14);
             this.ServerPortLabel.TabIndex = 8;
@@ -305,7 +305,7 @@ namespace Shadowsocks.View
             this.IPTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.IPTextBox.Depth = 0;
             this.IPTextBox.Hint = "";
-            this.IPTextBox.Location = new System.Drawing.Point(103, 6);
+            this.IPTextBox.Location = new System.Drawing.Point(111, 6);
             this.IPTextBox.MaxLength = 512;
             this.IPTextBox.MouseState = MaterialSkin.MouseState.HOVER;
             this.IPTextBox.Name = "IPTextBox";
@@ -321,7 +321,7 @@ namespace Shadowsocks.View
             // NumServerPort
             // 
             this.NumServerPort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.NumServerPort.Location = new System.Drawing.Point(103, 35);
+            this.NumServerPort.Location = new System.Drawing.Point(111, 36);
             this.NumServerPort.Maximum = new decimal(new int[] {
             65535,
             0,
@@ -336,7 +336,7 @@ namespace Shadowsocks.View
             this.PasswordTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.PasswordTextBox.Depth = 0;
             this.PasswordTextBox.Hint = "";
-            this.PasswordTextBox.Location = new System.Drawing.Point(103, 63);
+            this.PasswordTextBox.Location = new System.Drawing.Point(111, 64);
             this.PasswordTextBox.MaxLength = 256;
             this.PasswordTextBox.MouseState = MaterialSkin.MouseState.HOVER;
             this.PasswordTextBox.Name = "PasswordTextBox";
@@ -353,7 +353,7 @@ namespace Shadowsocks.View
             // 
             this.EncryptionLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.EncryptionLabel.AutoSize = true;
-            this.EncryptionLabel.Location = new System.Drawing.Point(32, 97);
+            this.EncryptionLabel.Location = new System.Drawing.Point(40, 99);
             this.EncryptionLabel.Name = "EncryptionLabel";
             this.EncryptionLabel.Size = new System.Drawing.Size(65, 14);
             this.EncryptionLabel.TabIndex = 12;
@@ -363,7 +363,7 @@ namespace Shadowsocks.View
             // 
             this.EncryptionSelect.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.EncryptionSelect.FormattingEnabled = true;
-            this.EncryptionSelect.Location = new System.Drawing.Point(103, 92);
+            this.EncryptionSelect.Location = new System.Drawing.Point(111, 94);
             this.EncryptionSelect.Margin = new System.Windows.Forms.Padding(3, 3, 3, 7);
             this.EncryptionSelect.Name = "EncryptionSelect";
             this.EncryptionSelect.Size = new System.Drawing.Size(233, 22);
@@ -374,7 +374,7 @@ namespace Shadowsocks.View
             this.TextLink.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.TextLink.Depth = 0;
             this.TextLink.Hint = "";
-            this.TextLink.Location = new System.Drawing.Point(103, 298);
+            this.TextLink.Location = new System.Drawing.Point(111, 300);
             this.TextLink.MaxLength = 32767;
             this.TextLink.MouseState = MaterialSkin.MouseState.HOVER;
             this.TextLink.Name = "TextLink";
@@ -394,7 +394,7 @@ namespace Shadowsocks.View
             this.RemarksTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.RemarksTextBox.Depth = 0;
             this.RemarksTextBox.Hint = "";
-            this.RemarksTextBox.Location = new System.Drawing.Point(103, 240);
+            this.RemarksTextBox.Location = new System.Drawing.Point(111, 242);
             this.RemarksTextBox.MaxLength = 256;
             this.RemarksTextBox.MouseState = MaterialSkin.MouseState.HOVER;
             this.RemarksTextBox.Name = "RemarksTextBox";
@@ -411,7 +411,7 @@ namespace Shadowsocks.View
             // 
             this.ObfsUDPLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.ObfsUDPLabel.AutoSize = true;
-            this.ObfsUDPLabel.Location = new System.Drawing.Point(38, 429);
+            this.ObfsUDPLabel.Location = new System.Drawing.Point(46, 453);
             this.ObfsUDPLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.ObfsUDPLabel.Name = "ObfsUDPLabel";
             this.ObfsUDPLabel.Size = new System.Drawing.Size(59, 14);
@@ -422,9 +422,15 @@ namespace Shadowsocks.View
             // CheckObfsUDP
             // 
             this.CheckObfsUDP.AutoSize = true;
-            this.CheckObfsUDP.Location = new System.Drawing.Point(103, 427);
+            this.CheckObfsUDP.Depth = 0;
+            this.CheckObfsUDP.Font = new System.Drawing.Font("Roboto", 10F);
+            this.CheckObfsUDP.Location = new System.Drawing.Point(108, 445);
+            this.CheckObfsUDP.Margin = new System.Windows.Forms.Padding(0);
+            this.CheckObfsUDP.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.CheckObfsUDP.MouseState = MaterialSkin.MouseState.HOVER;
             this.CheckObfsUDP.Name = "CheckObfsUDP";
-            this.CheckObfsUDP.Size = new System.Drawing.Size(140, 18);
+            this.CheckObfsUDP.Ripple = true;
+            this.CheckObfsUDP.Size = new System.Drawing.Size(163, 30);
             this.CheckObfsUDP.TabIndex = 37;
             this.CheckObfsUDP.Text = "Recommend checked";
             this.CheckObfsUDP.UseVisualStyleBackColor = true;
@@ -435,7 +441,7 @@ namespace Shadowsocks.View
             this.TCPProtocolLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.TCPProtocolLabel.AutoSize = true;
             this.TCPProtocolLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.TCPProtocolLabel.Location = new System.Drawing.Point(44, 127);
+            this.TCPProtocolLabel.Location = new System.Drawing.Point(52, 129);
             this.TCPProtocolLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.TCPProtocolLabel.Name = "TCPProtocolLabel";
             this.TCPProtocolLabel.Size = new System.Drawing.Size(53, 14);
@@ -446,7 +452,7 @@ namespace Shadowsocks.View
             // 
             this.UDPoverTCPLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.UDPoverTCPLabel.AutoSize = true;
-            this.UDPoverTCPLabel.Location = new System.Drawing.Point(14, 405);
+            this.UDPoverTCPLabel.Location = new System.Drawing.Point(22, 423);
             this.UDPoverTCPLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.UDPoverTCPLabel.Name = "UDPoverTCPLabel";
             this.UDPoverTCPLabel.Size = new System.Drawing.Size(83, 14);
@@ -457,9 +463,15 @@ namespace Shadowsocks.View
             // CheckUDPoverUDP
             // 
             this.CheckUDPoverUDP.AutoSize = true;
-            this.CheckUDPoverUDP.Location = new System.Drawing.Point(103, 403);
+            this.CheckUDPoverUDP.Depth = 0;
+            this.CheckUDPoverUDP.Font = new System.Drawing.Font("Roboto", 10F);
+            this.CheckUDPoverUDP.Location = new System.Drawing.Point(108, 415);
+            this.CheckUDPoverUDP.Margin = new System.Windows.Forms.Padding(0);
+            this.CheckUDPoverUDP.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.CheckUDPoverUDP.MouseState = MaterialSkin.MouseState.HOVER;
             this.CheckUDPoverUDP.Name = "CheckUDPoverUDP";
-            this.CheckUDPoverUDP.Size = new System.Drawing.Size(181, 18);
+            this.CheckUDPoverUDP.Ripple = true;
+            this.CheckUDPoverUDP.Size = new System.Drawing.Size(207, 30);
             this.CheckUDPoverUDP.TabIndex = 35;
             this.CheckUDPoverUDP.Text = "UDP over UDP if not checked";
             this.CheckUDPoverUDP.UseVisualStyleBackColor = true;
@@ -469,7 +481,7 @@ namespace Shadowsocks.View
             // 
             this.LabelNote.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.LabelNote.AutoSize = true;
-            this.LabelNote.Location = new System.Drawing.Point(105, 329);
+            this.LabelNote.Location = new System.Drawing.Point(113, 335);
             this.LabelNote.Margin = new System.Windows.Forms.Padding(5);
             this.LabelNote.Name = "LabelNote";
             this.LabelNote.Size = new System.Drawing.Size(167, 14);
@@ -480,9 +492,15 @@ namespace Shadowsocks.View
             // 
             this.PasswordLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.PasswordLabel.AutoSize = true;
-            this.PasswordLabel.Location = new System.Drawing.Point(17, 65);
+            this.PasswordLabel.Depth = 0;
+            this.PasswordLabel.Font = new System.Drawing.Font("Roboto", 10F);
+            this.PasswordLabel.Location = new System.Drawing.Point(17, 61);
+            this.PasswordLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.PasswordLabel.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.PasswordLabel.MouseState = MaterialSkin.MouseState.HOVER;
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(80, 18);
+            this.PasswordLabel.Ripple = true;
+            this.PasswordLabel.Size = new System.Drawing.Size(91, 30);
             this.PasswordLabel.TabIndex = 10;
             this.PasswordLabel.Text = "Password";
             this.PasswordLabel.UseVisualStyleBackColor = true;
@@ -492,7 +510,7 @@ namespace Shadowsocks.View
             // 
             this.TCPoverUDPLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.TCPoverUDPLabel.AutoSize = true;
-            this.TCPoverUDPLabel.Location = new System.Drawing.Point(14, 381);
+            this.TCPoverUDPLabel.Location = new System.Drawing.Point(22, 393);
             this.TCPoverUDPLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.TCPoverUDPLabel.Name = "TCPoverUDPLabel";
             this.TCPoverUDPLabel.Size = new System.Drawing.Size(83, 14);
@@ -503,9 +521,15 @@ namespace Shadowsocks.View
             // CheckTCPoverUDP
             // 
             this.CheckTCPoverUDP.AutoSize = true;
-            this.CheckTCPoverUDP.Location = new System.Drawing.Point(103, 379);
+            this.CheckTCPoverUDP.Depth = 0;
+            this.CheckTCPoverUDP.Font = new System.Drawing.Font("Roboto", 10F);
+            this.CheckTCPoverUDP.Location = new System.Drawing.Point(108, 385);
+            this.CheckTCPoverUDP.Margin = new System.Windows.Forms.Padding(0);
+            this.CheckTCPoverUDP.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.CheckTCPoverUDP.MouseState = MaterialSkin.MouseState.HOVER;
             this.CheckTCPoverUDP.Name = "CheckTCPoverUDP";
-            this.CheckTCPoverUDP.Size = new System.Drawing.Size(179, 18);
+            this.CheckTCPoverUDP.Ripple = true;
+            this.CheckTCPoverUDP.Size = new System.Drawing.Size(206, 30);
             this.CheckTCPoverUDP.TabIndex = 33;
             this.CheckTCPoverUDP.Text = "TCP over TCP if not checked";
             this.CheckTCPoverUDP.UseVisualStyleBackColor = true;
@@ -523,7 +547,7 @@ namespace Shadowsocks.View
             "auth_aes128_sha1",
             "auth_chain_a",
             "auth_chain_b"});
-            this.TCPProtocolComboBox.Location = new System.Drawing.Point(103, 122);
+            this.TCPProtocolComboBox.Location = new System.Drawing.Point(111, 124);
             this.TCPProtocolComboBox.Margin = new System.Windows.Forms.Padding(3, 3, 3, 7);
             this.TCPProtocolComboBox.Name = "TCPProtocolComboBox";
             this.TCPProtocolComboBox.Size = new System.Drawing.Size(233, 22);
@@ -534,7 +558,7 @@ namespace Shadowsocks.View
             this.labelObfsParam.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.labelObfsParam.AutoSize = true;
             this.labelObfsParam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.labelObfsParam.Location = new System.Drawing.Point(27, 215);
+            this.labelObfsParam.Location = new System.Drawing.Point(35, 217);
             this.labelObfsParam.Name = "labelObfsParam";
             this.labelObfsParam.Size = new System.Drawing.Size(70, 14);
             this.labelObfsParam.TabIndex = 20;
@@ -545,7 +569,7 @@ namespace Shadowsocks.View
             this.TextObfsParam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.TextObfsParam.Depth = 0;
             this.TextObfsParam.Hint = "";
-            this.TextObfsParam.Location = new System.Drawing.Point(103, 211);
+            this.TextObfsParam.Location = new System.Drawing.Point(111, 213);
             this.TextObfsParam.MaxLength = 32767;
             this.TextObfsParam.MouseState = MaterialSkin.MouseState.HOVER;
             this.TextObfsParam.Name = "TextObfsParam";
@@ -562,7 +586,7 @@ namespace Shadowsocks.View
             // 
             this.labelGroup.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.labelGroup.AutoSize = true;
-            this.labelGroup.Location = new System.Drawing.Point(57, 273);
+            this.labelGroup.Location = new System.Drawing.Point(65, 275);
             this.labelGroup.Name = "labelGroup";
             this.labelGroup.Size = new System.Drawing.Size(40, 14);
             this.labelGroup.TabIndex = 24;
@@ -573,7 +597,7 @@ namespace Shadowsocks.View
             this.TextGroup.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.TextGroup.Depth = 0;
             this.TextGroup.Hint = "";
-            this.TextGroup.Location = new System.Drawing.Point(103, 269);
+            this.TextGroup.Location = new System.Drawing.Point(111, 271);
             this.TextGroup.MaxLength = 64;
             this.TextGroup.MouseState = MaterialSkin.MouseState.HOVER;
             this.TextGroup.Name = "TextGroup";
@@ -589,9 +613,15 @@ namespace Shadowsocks.View
             // checkAdvSetting
             // 
             this.checkAdvSetting.AutoSize = true;
-            this.checkAdvSetting.Location = new System.Drawing.Point(6, 327);
+            this.checkAdvSetting.Depth = 0;
+            this.checkAdvSetting.Font = new System.Drawing.Font("Roboto", 10F);
+            this.checkAdvSetting.Location = new System.Drawing.Point(3, 327);
+            this.checkAdvSetting.Margin = new System.Windows.Forms.Padding(0);
+            this.checkAdvSetting.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.checkAdvSetting.MouseState = MaterialSkin.MouseState.HOVER;
             this.checkAdvSetting.Name = "checkAdvSetting";
-            this.checkAdvSetting.Size = new System.Drawing.Size(91, 18);
+            this.checkAdvSetting.Ripple = true;
+            this.checkAdvSetting.Size = new System.Drawing.Size(105, 30);
             this.checkAdvSetting.TabIndex = 28;
             this.checkAdvSetting.Text = "Adv. Setting";
             this.checkAdvSetting.UseVisualStyleBackColor = true;
@@ -601,7 +631,7 @@ namespace Shadowsocks.View
             // 
             this.labelUDPPort.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.labelUDPPort.AutoSize = true;
-            this.labelUDPPort.Location = new System.Drawing.Point(40, 355);
+            this.labelUDPPort.Location = new System.Drawing.Point(48, 364);
             this.labelUDPPort.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.labelUDPPort.Name = "labelUDPPort";
             this.labelUDPPort.Size = new System.Drawing.Size(57, 14);
@@ -612,7 +642,7 @@ namespace Shadowsocks.View
             // NumUDPPort
             // 
             this.NumUDPPort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.NumUDPPort.Location = new System.Drawing.Point(103, 351);
+            this.NumUDPPort.Location = new System.Drawing.Point(111, 360);
             this.NumUDPPort.Maximum = new decimal(new int[] {
             65535,
             0,
@@ -629,9 +659,15 @@ namespace Shadowsocks.View
             this.checkSSRLink.AutoSize = true;
             this.checkSSRLink.Checked = true;
             this.checkSSRLink.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkSSRLink.Location = new System.Drawing.Point(23, 300);
+            this.checkSSRLink.Depth = 0;
+            this.checkSSRLink.Font = new System.Drawing.Font("Roboto", 10F);
+            this.checkSSRLink.Location = new System.Drawing.Point(24, 297);
+            this.checkSSRLink.Margin = new System.Windows.Forms.Padding(0);
+            this.checkSSRLink.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.checkSSRLink.MouseState = MaterialSkin.MouseState.HOVER;
             this.checkSSRLink.Name = "checkSSRLink";
-            this.checkSSRLink.Size = new System.Drawing.Size(74, 18);
+            this.checkSSRLink.Ripple = true;
+            this.checkSSRLink.Size = new System.Drawing.Size(84, 30);
             this.checkSSRLink.TabIndex = 26;
             this.checkSSRLink.Text = "SSR Link";
             this.checkSSRLink.UseVisualStyleBackColor = true;
@@ -641,7 +677,7 @@ namespace Shadowsocks.View
             // 
             this.labelRemarks.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.labelRemarks.AutoSize = true;
-            this.labelRemarks.Location = new System.Drawing.Point(43, 244);
+            this.labelRemarks.Location = new System.Drawing.Point(51, 246);
             this.labelRemarks.Name = "labelRemarks";
             this.labelRemarks.Size = new System.Drawing.Size(54, 14);
             this.labelRemarks.TabIndex = 22;
@@ -652,7 +688,7 @@ namespace Shadowsocks.View
             this.labelProtocolParam.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.labelProtocolParam.AutoSize = true;
             this.labelProtocolParam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.labelProtocolParam.Location = new System.Drawing.Point(6, 156);
+            this.labelProtocolParam.Location = new System.Drawing.Point(14, 158);
             this.labelProtocolParam.Name = "labelProtocolParam";
             this.labelProtocolParam.Size = new System.Drawing.Size(91, 14);
             this.labelProtocolParam.TabIndex = 16;
@@ -663,7 +699,7 @@ namespace Shadowsocks.View
             this.TextProtocolParam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.TextProtocolParam.Depth = 0;
             this.TextProtocolParam.Hint = "";
-            this.TextProtocolParam.Location = new System.Drawing.Point(103, 152);
+            this.TextProtocolParam.Location = new System.Drawing.Point(111, 154);
             this.TextProtocolParam.MaxLength = 32767;
             this.TextProtocolParam.MouseState = MaterialSkin.MouseState.HOVER;
             this.TextProtocolParam.Name = "TextProtocolParam";
@@ -680,9 +716,15 @@ namespace Shadowsocks.View
             // 
             this.IPLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.IPLabel.AutoSize = true;
-            this.IPLabel.Location = new System.Drawing.Point(24, 8);
+            this.IPLabel.Depth = 0;
+            this.IPLabel.Font = new System.Drawing.Font("Roboto", 10F);
+            this.IPLabel.Location = new System.Drawing.Point(23, 3);
+            this.IPLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.IPLabel.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.IPLabel.MouseState = MaterialSkin.MouseState.HOVER;
             this.IPLabel.Name = "IPLabel";
-            this.IPLabel.Size = new System.Drawing.Size(73, 18);
+            this.IPLabel.Ripple = true;
+            this.IPLabel.Size = new System.Drawing.Size(85, 30);
             this.IPLabel.TabIndex = 38;
             this.IPLabel.Text = "Server IP";
             this.IPLabel.UseVisualStyleBackColor = true;
@@ -704,14 +746,14 @@ namespace Shadowsocks.View
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(250, 540);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(250, 567);
             this.tableLayoutPanel7.TabIndex = 16;
             // 
             // LinkUpdate
             // 
             this.LinkUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LinkUpdate.AutoSize = true;
-            this.LinkUpdate.Location = new System.Drawing.Point(63, 443);
+            this.LinkUpdate.Location = new System.Drawing.Point(63, 457);
             this.LinkUpdate.Margin = new System.Windows.Forms.Padding(5);
             this.LinkUpdate.Name = "LinkUpdate";
             this.LinkUpdate.Size = new System.Drawing.Size(124, 14);
@@ -783,13 +825,13 @@ namespace Shadowsocks.View
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel5.Controls.Add(this.PictureQRcode, 0, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(633, 3);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(641, 3);
             this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(268, 495);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(268, 522);
             this.tableLayoutPanel5.TabIndex = 17;
             // 
             // tableLayoutPanel3
@@ -802,12 +844,12 @@ namespace Shadowsocks.View
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.MyCancelButton, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.OKButton, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(259, 504);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(259, 531);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 3, 0, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(362, 39);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(370, 39);
             this.tableLayoutPanel3.TabIndex = 14;
             // 
             // MyCancelButton
@@ -818,7 +860,7 @@ namespace Shadowsocks.View
             this.MyCancelButton.Depth = 0;
             this.MyCancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.MyCancelButton.Icon = null;
-            this.MyCancelButton.Location = new System.Drawing.Point(289, 3);
+            this.MyCancelButton.Location = new System.Drawing.Point(297, 3);
             this.MyCancelButton.Margin = new System.Windows.Forms.Padding(3, 3, 0, 0);
             this.MyCancelButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.MyCancelButton.Name = "MyCancelButton";
