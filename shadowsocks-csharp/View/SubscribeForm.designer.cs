@@ -60,7 +60,7 @@ namespace Shadowsocks.View
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.textBoxURL, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.textBoxGroup, 1, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(371, 3);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(360, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -127,9 +127,10 @@ namespace Shadowsocks.View
             // checkBoxAutoUpdate
             // 
             this.checkBoxAutoUpdate.AutoSize = true;
+            this.tableLayoutPanel4.SetColumnSpan(this.checkBoxAutoUpdate, 2);
             this.checkBoxAutoUpdate.Depth = 0;
             this.checkBoxAutoUpdate.Font = new System.Drawing.Font("Roboto", 10F);
-            this.checkBoxAutoUpdate.Location = new System.Drawing.Point(0, 30);
+            this.checkBoxAutoUpdate.Location = new System.Drawing.Point(0, 40);
             this.checkBoxAutoUpdate.Margin = new System.Windows.Forms.Padding(0);
             this.checkBoxAutoUpdate.MouseLocation = new System.Drawing.Point(-1, -1);
             this.checkBoxAutoUpdate.MouseState = MaterialSkin.MouseState.HOVER;
@@ -148,7 +149,7 @@ namespace Shadowsocks.View
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.buttonOK, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.buttonCancel, 1, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(379, 245);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(363, 261);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -205,9 +206,9 @@ namespace Shadowsocks.View
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 78.59327F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.40673F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(681, 308);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 71.91358F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.08642F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(660, 324);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // listServerSubscribe
@@ -216,7 +217,7 @@ namespace Shadowsocks.View
             this.listServerSubscribe.ItemHeight = 14;
             this.listServerSubscribe.Location = new System.Drawing.Point(3, 3);
             this.listServerSubscribe.Name = "listServerSubscribe";
-            this.listServerSubscribe.Size = new System.Drawing.Size(343, 228);
+            this.listServerSubscribe.Size = new System.Drawing.Size(343, 214);
             this.listServerSubscribe.TabIndex = 4;
             this.listServerSubscribe.SelectedIndexChanged += new System.EventHandler(this.listServerSubscribe_SelectedIndexChanged);
             // 
@@ -225,15 +226,15 @@ namespace Shadowsocks.View
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.checkBoxAutoUpdate, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.buttonAdd, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.buttonDel, 1, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 245);
+            this.tableLayoutPanel4.Controls.Add(this.checkBoxAutoUpdate, 0, 1);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 236);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(343, 60);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(343, 80);
             this.tableLayoutPanel4.TabIndex = 5;
             // 
             // buttonAdd
@@ -248,7 +249,7 @@ namespace Shadowsocks.View
             this.buttonAdd.MouseState = MaterialSkin.MouseState.HOVER;
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Primary = false;
-            this.buttonAdd.Size = new System.Drawing.Size(163, 18);
+            this.buttonAdd.Size = new System.Drawing.Size(163, 28);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -266,7 +267,7 @@ namespace Shadowsocks.View
             this.buttonDel.MouseState = MaterialSkin.MouseState.HOVER;
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Primary = false;
-            this.buttonDel.Size = new System.Drawing.Size(164, 18);
+            this.buttonDel.Size = new System.Drawing.Size(164, 28);
             this.buttonDel.TabIndex = 1;
             this.buttonDel.Text = "Delete";
             this.buttonDel.UseVisualStyleBackColor = true;
@@ -274,11 +275,10 @@ namespace Shadowsocks.View
             // 
             // SubscribeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoSize = true;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(681, 364);
+            this.ClientSize = new System.Drawing.Size(660, 380);
+            this.AutoSize = false;
             this.Controls.Add(this.tableLayoutPanel3);
             this.Font = new System.Drawing.Font("Roboto", 9F);
             this.Name = "SubscribeForm";
