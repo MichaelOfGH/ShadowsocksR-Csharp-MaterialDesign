@@ -2,8 +2,7 @@ ShadowsocksR for Windows with MaterialDesign (by MaterialSkin)
 ======================
 
 #### Download 下载
-
-可以从以下链接对应的Material-SSR的Windows版本
+可以从以下链接对应的Material-SSR的Windows版本:
 Download the newest verison for Material-ShadowsocksR for Windows at here:
 
 [百度云](https://pan.baidu.com/s/1RkNRzThxYclNE_MARLx-fg)<br>
@@ -12,10 +11,10 @@ Download the newest verison for Material-ShadowsocksR for Windows at here:
 <br>
 
 #### Usage 用法
-对于装了.NET4.0+版本的win7+系统，直接用ShadowsocksR.exe
+对于装了.NET4.0+版本的win7+系统，直接用ShadowsocksR.exe（￣︶￣）↗　
 For >= Windows 7+ or with .Net 4.0+, using ShadowsocksR.exe directly.
 <br>
-对于XP用户，
+对于XP用户，《凉凉》送给你，快去升级系统吧(* ￣︿￣)
 For <= Windows XP or with .Net 2.0, Shut up and update your .NET Framework.
 <br>
 ### Develop 开发
