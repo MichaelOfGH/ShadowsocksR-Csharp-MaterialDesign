@@ -5,9 +5,9 @@ ShadowsocksR for Windows with MaterialDesign (by MaterialSkin)
 可以从以下链接对应的Material-SSR的Windows版本:
 Download the newest verison for Material-ShadowsocksR for Windows at here:
 
-[百度云](https://pan.baidu.com/s/1RkNRzThxYclNE_MARLx-fg)<br>
-[Google Drive](https://drive.google.com/open?id=1KeHLZZrtBosakB1nc8QQRSBhF2a5OnUQ)<br>
-[MEGA](https://mega.nz/#!euZTmKZR!tRWStQVFbU4qQ1GcYWu-6PMJ1q6fxlPC8gin4Mf7u3c)<br>
+[百度云](https://pan.baidu.com/s/1tAUEpySRf5MXEqCP3GxmLg)<br>
+[Google Drive](https://drive.google.com/open?id=1j01XAVuv_0ymSfpBJQepH11S-FsxdL3l)<br>
+[MEGA](https://mega.nz/#!GqIhUKxJ!o7b51CDJMgRr3-mgUEMDEzFkx9hZgLccX-v0GrWEtSE)<br>
 <br>
 
 #### Usage 用法
