@@ -77,8 +77,8 @@ namespace Shadowsocks.View
             this.UpButton = new MaterialSkin.Controls.MaterialFlatButton();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.MyCancelButton = new MaterialSkin.Controls.MaterialFlatButton();
             this.OKButton = new MaterialSkin.Controls.MaterialFlatButton();
+            this.MyCancelButton = new MaterialSkin.Controls.MaterialFlatButton();
             ((System.ComponentModel.ISupportInitialize)(this.PictureQRcode)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             this.ServerGroupBox.SuspendLayout();
@@ -103,17 +103,17 @@ namespace Shadowsocks.View
             // 
             // DeleteButton
             // 
-            this.DeleteButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.DeleteButton.AutoSize = true;
             this.DeleteButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.DeleteButton.Depth = 0;
+            this.DeleteButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DeleteButton.Icon = null;
-            this.DeleteButton.Location = new System.Drawing.Point(172, 0);
+            this.DeleteButton.Location = new System.Drawing.Point(57, 0);
             this.DeleteButton.Margin = new System.Windows.Forms.Padding(0);
             this.DeleteButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.DeleteButton.Name = "DeleteButton";
             this.DeleteButton.Primary = false;
-            this.DeleteButton.Size = new System.Drawing.Size(78, 36);
+            this.DeleteButton.Size = new System.Drawing.Size(193, 36);
             this.DeleteButton.TabIndex = 2;
             this.DeleteButton.Text = "&Delete";
             this.DeleteButton.UseVisualStyleBackColor = true;
@@ -124,6 +124,7 @@ namespace Shadowsocks.View
             this.AddButton.AutoSize = true;
             this.AddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AddButton.Depth = 0;
+            this.AddButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddButton.Icon = null;
             this.AddButton.Location = new System.Drawing.Point(0, 0);
             this.AddButton.Margin = new System.Windows.Forms.Padding(0);
@@ -785,17 +786,17 @@ namespace Shadowsocks.View
             // 
             // DownButton
             // 
-            this.DownButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.DownButton.AutoSize = true;
             this.DownButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.DownButton.Depth = 0;
+            this.DownButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DownButton.Icon = null;
-            this.DownButton.Location = new System.Drawing.Point(189, 36);
+            this.DownButton.Location = new System.Drawing.Point(57, 36);
             this.DownButton.Margin = new System.Windows.Forms.Padding(0);
             this.DownButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.DownButton.Name = "DownButton";
             this.DownButton.Primary = false;
-            this.DownButton.Size = new System.Drawing.Size(61, 36);
+            this.DownButton.Size = new System.Drawing.Size(193, 36);
             this.DownButton.TabIndex = 4;
             this.DownButton.Text = "Down";
             this.DownButton.UseVisualStyleBackColor = true;
@@ -806,13 +807,14 @@ namespace Shadowsocks.View
             this.UpButton.AutoSize = true;
             this.UpButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.UpButton.Depth = 0;
+            this.UpButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UpButton.Icon = null;
             this.UpButton.Location = new System.Drawing.Point(0, 36);
             this.UpButton.Margin = new System.Windows.Forms.Padding(0);
             this.UpButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.UpButton.Name = "UpButton";
             this.UpButton.Primary = false;
-            this.UpButton.Size = new System.Drawing.Size(39, 36);
+            this.UpButton.Size = new System.Drawing.Size(57, 36);
             this.UpButton.TabIndex = 3;
             this.UpButton.Text = "Up";
             this.UpButton.UseVisualStyleBackColor = true;
@@ -842,8 +844,8 @@ namespace Shadowsocks.View
             this.tableLayoutPanel3.ColumnCount = 2;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.MyCancelButton, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.OKButton, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.MyCancelButton, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.OKButton, 1, 0);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(259, 531);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 3, 0, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -852,43 +854,42 @@ namespace Shadowsocks.View
             this.tableLayoutPanel3.Size = new System.Drawing.Size(370, 39);
             this.tableLayoutPanel3.TabIndex = 14;
             // 
-            // MyCancelButton
-            // 
-            this.MyCancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MyCancelButton.AutoSize = true;
-            this.MyCancelButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.MyCancelButton.Depth = 0;
-            this.MyCancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.MyCancelButton.Icon = null;
-            this.MyCancelButton.Location = new System.Drawing.Point(297, 3);
-            this.MyCancelButton.Margin = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.MyCancelButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.MyCancelButton.Name = "MyCancelButton";
-            this.MyCancelButton.Primary = false;
-            this.MyCancelButton.Size = new System.Drawing.Size(73, 36);
-            this.MyCancelButton.TabIndex = 39;
-            this.MyCancelButton.Text = "Cancel";
-            this.MyCancelButton.UseVisualStyleBackColor = true;
-            this.MyCancelButton.Click += new System.EventHandler(this.CancelButton_Click);
-            // 
             // OKButton
             // 
             this.OKButton.AutoSize = true;
             this.OKButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.OKButton.Depth = 0;
             this.OKButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.OKButton.Dock = System.Windows.Forms.DockStyle.Left;
+            this.OKButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.OKButton.Icon = null;
-            this.OKButton.Location = new System.Drawing.Point(3, 3);
+            this.OKButton.Location = new System.Drawing.Point(188, 3);
             this.OKButton.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.OKButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.OKButton.Name = "OKButton";
             this.OKButton.Primary = false;
-            this.OKButton.Size = new System.Drawing.Size(39, 36);
+            this.OKButton.Size = new System.Drawing.Size(179, 36);
             this.OKButton.TabIndex = 38;
             this.OKButton.Text = "OK";
             this.OKButton.UseVisualStyleBackColor = true;
             this.OKButton.Click += new System.EventHandler(this.OKButton_Click);
+            // 
+            // MyCancelButton
+            // 
+            this.MyCancelButton.AutoSize = true;
+            this.MyCancelButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.MyCancelButton.Depth = 0;
+            this.MyCancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.MyCancelButton.Dock = System.Windows.Forms.DockStyle.Right;
+            this.MyCancelButton.Icon = null;
+            this.MyCancelButton.Location = new System.Drawing.Point(112, 3);
+            this.MyCancelButton.Margin = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.MyCancelButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.MyCancelButton.Name = "MyCancelButton";
+            this.MyCancelButton.Primary = false;
+            this.MyCancelButton.Size = new System.Drawing.Size(73, 36);
+            this.MyCancelButton.TabIndex = 40;
+            this.MyCancelButton.Text = "Cancel";
+            this.MyCancelButton.UseVisualStyleBackColor = true;
             // 
             // ConfigForm
             // 
@@ -896,7 +897,7 @@ namespace Shadowsocks.View
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(796, 564);
+            this.ClientSize = new System.Drawing.Size(796, 721);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Roboto", 9F);
@@ -975,11 +976,11 @@ namespace Shadowsocks.View
         private MaterialCheckBox checkSSRLink;
         private System.Windows.Forms.Label labelRemarks;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private MaterialFlatButton MyCancelButton;
         private MaterialFlatButton OKButton;
         private System.Windows.Forms.Label labelProtocolParam;
         private MaterialSingleLineTextField TextProtocolParam;
         private MaterialCheckBox IPLabel;
+        private MaterialFlatButton MyCancelButton;
     }
 }
 
