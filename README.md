@@ -1,10 +1,14 @@
 ShadowsocksR for Windows with MaterialDesign (by MaterialSkin)
 ======================
 
-#### Download
+#### Download 下载
 
+可以从以下链接对应的Material-SSR的Windows版本
+Download the newest verison for Material-ShadowsocksR for Windows at here:
 
-Download the [latest release](https://github.com/shadowsocksr-rm/shadowsocksr-csharp/releases) for ShadowsocksR for Windows.
+[百度云](https://pan.baidu.com/s/1RkNRzThxYclNE_MARLx-fg)
+[Google Drive](https://drive.google.com/open?id=1KeHLZZrtBosakB1nc8QQRSBhF2a5OnUQ)
+[MEGA](https://mega.nz/#!euZTmKZR!tRWStQVFbU4qQ1GcYWu-6PMJ1q6fxlPC8gin4Mf7u3c)
 
 
 #### Usage 用法
@@ -20,10 +24,3 @@ Visual Studio * 2012 is avliable.
 
 #### License
 
-GPLv3
-
-Copyright © BreakWa11 2017. Fork from Shadowsocks by clowwindy
-
-[Appveyor]:       https://ci.appveyor.com/project/breakwa11/shadowsocksr-csharp
-[Build Status]:   https://ci.appveyor.com/api/projects/status/itcxnad1y95gf2x5/branch/master?svg=true
-[latest release]: https://github.com/shadowsocksr-rm/shadowsocksr-csharp/releases
