@@ -14,7 +14,7 @@ Download the newest verison for Material-ShadowsocksR for Windows at here:
 对于装了.NET4.0+版本的win7+系统，直接用ShadowsocksR.exe（￣︶￣）↗<br>
 For >= Windows 7+ or with .Net 4.0+, using ShadowsocksR.exe directly.
 <br><br>
-对于XP用户，《凉凉》送给你，快去升级系统吧(* ￣︿￣)<br>
+对于XP用户，《凉凉》送给你，快去升级系统吧(╬▔皿▔)凸<br>
 For <= Windows XP or with .Net 2.0, Shut up and update your .NET Framework.
 <br>
 #### Develop 开发<br>
